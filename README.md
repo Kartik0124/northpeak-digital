@@ -51,7 +51,8 @@ Add your Netlify/Vercel link here.
 Example:
 
 ```
-https://northpeak-digital.netlify.app
+https://lovely-treacle-d6c0bc.netlify.app/
+
 ```
 
 ## 👨‍💻 Author
