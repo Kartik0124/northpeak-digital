@@ -1,0 +1,33 @@
+.faq-section{
+    background:#08131f;
+    color:white;
+}
+
+.accordion-item{
+    background:#122034;
+    border:none;
+    margin-bottom:15px;
+    border-radius:12px;
+    overflow:hidden;
+}
+
+.accordion-button{
+    background:#122034;
+    color:white;
+    font-weight:600;
+    box-shadow:none;
+}
+
+.accordion-button:not(.collapsed){
+    background:#0d6efd;
+    color:white;
+}
+
+.accordion-button:focus{
+    box-shadow:none;
+}
+
+.accordion-body{
+    background:#16263d;
+    color:#c5d3de;
+}

@@ -1,0 +1,131 @@
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:
+    radial-gradient(circle at top right,#0d6efd33,transparent 45%),
+    radial-gradient(circle at bottom left,#00c6ff22,transparent 40%),
+    #08131f;
+    color:white;
+    padding-top:100px;
+}
+
+.hero-content h1{
+    font-size:3.8rem;
+    font-weight:800;
+    line-height:1.2;
+}
+
+.hero-content h1 span{
+    color:#0d6efd;
+}
+
+.hero-content p{
+    margin:25px 0;
+    color:#b9c6d2;
+    font-size:1.1rem;
+}
+
+.hero-badge{
+    display:inline-block;
+    padding:8px 18px;
+    background:#13253c;
+    border-radius:30px;
+    margin-bottom:20px;
+    color:#9fc4ff;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.hero-image{
+    position:relative;
+    height:500px;
+}
+
+.glass-card{
+    position:absolute;
+    width:220px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,.12);
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    animation:float 4s ease-in-out infinite;
+}
+
+.card1{
+    top:20px;
+    right:40px;
+}
+
+.card2{
+    bottom:70px;
+    left:20px;
+}
+
+.card3{
+    top:200px;
+    left:180px;
+}
+
+.glass-card h3{
+    color:#00c6ff;
+    font-size:2rem;
+}
+
+@keyframes float{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-15px);}
+    100%{transform:translateY(0);}
+}
+
+@media(max-width:991px){
+
+.hero{
+text-align:center;
+}
+
+.hero-content h1{
+font-size:2.8rem;
+}
+
+.hero-buttons{
+justify-content:center;
+}
+
+.hero-image{
+height:420px;
+margin-top:50px;
+}
+
+.card3{
+left:120px;
+}
+
+}
+
+@media(max-width:576px){
+
+.hero-content h1{
+font-size:2.2rem;
+}
+
+.hero-image{
+height:350px;
+}
+
+.glass-card{
+width:170px;
+padding:18px;
+}
+
+.card3{
+left:80px;
+}
+
+}
